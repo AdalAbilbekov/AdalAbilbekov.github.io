@@ -17,232 +17,436 @@
             <h3 class="kazemotts">Kazakh Emotional Text To Speech</h3>
             <p class="authors">Authors: Saida Mussakhojayeva, Atakan Varol, Rustem Yeshpanov, Adal Abilbekov</p>
         </div>
-        <div class="abstract">
+        <!-- <div class="abstract">
             <h3 class="abs">Abstract</h3>
             <p class="text_abs">
                 Emotional Text-To-Speech (TTS) is an important task in the development of systems (e.g., human-like dialogue agents) that require natural and emotional speech. Existing approaches, however, only aim to produce emotional TTS for seen speakers during training, without consideration of the generalization to unseen speakers.
                 In this paper, we propose ZET-Speech, a zero-shot adaptive emotion-controllable TTS model that allows users to synthesize any speaker's emotional speech using only a short, neutral speech segment and the target emotion label. Specifically, to enable a zero-shot adaptive TTS model to synthesize emotional speech, we propose domain adversarial learning and guidance methods on the diffusion model. 
                 Experimental results demonstrate that ZET-Speech successfully synthesizes natural and emotional speech with the desired emotion for both seen and unseen speakers.
             </p>
-        </div>
+        </div> -->
         <div class="demo_audios">
-            <h1>Kazakh Ground Truth</h1>
+            <h1>399172782</h1>
             <table>
                 <thead>
                     <tr>
-                        <th>Emotion|Speaker</th>
-                        <th>M1 GT</th>
-                        <th>M1 synthesized</th>
-                        <th>M2 GT</th>
-                        <th>M2 synthesized</th>
-                        <th>F1 GT</th>
-                        <th>F1 synthesized</th>
+                        <th>Emotions</th>
+                        <th>Text</th>
+                        <th>Ground Truth</th>
+                        <th>Synthesized</th>
+                        <th>Synthesized CL</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="Angry">
                         <td>Angry</td>
                         <td>
+                            <p style="font-size:18px;">Биыл соңғы екі айда ғана елу мың текше <br>
+                             метрден астам қар шығардық.</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_angry_10372.wav", type="audio/wav">
+                                <source src="./GT/399172782_angry_69890.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_angry_10372.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_angry_69890_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_angry_70615.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_angry_70615.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_angry_75029.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_angry_75029.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_angry_69890_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                     <tr>
                         <td>Fear</td>
                         <td>
+                            <p style="font-size:18px;">Сөйтіп жүріп жел аударған қаңбақтай Алматыға <br>келіп, одан осы санаторийге орналасқан.</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_fear_32492.wav", type="audio/wav">
+                                <source src="./GT/399172782_fear_20799.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_fear_32492.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_fear_20799_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_fear_19666.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_fear_19666.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_fear_14667.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_fear_14667.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_fear_20799_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                     <tr>
                         <td>Happy</td>
                         <td>
+                            <p style="font-size:18px;">Осы өңірде жайын балықтың арқасы неге шұбар <br>болғаны туралы мынадай миф бар.</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_happy_4064.wav", type="audio/wav">
+                                <source src="./GT/399172782_happy_21508.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_happy_4064.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_happy_21508_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_happy_25459.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_happy_25459.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_happy_24219.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_happy_24219.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_happy_21508_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                     <tr>
                         <td>Neutral</td>
                         <td>
+                            <p style="font-size:18px;">Мәнге де, маңызға да ие мақұлданған заң көп</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_neutral_51275.wav", type="audio/wav">
+                                <source src="./GT/399172782_neutral_54562.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_neutral_51275.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_neutral_54562_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_neutral_54561.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_neutral_54561.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_neutral_38130.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_neutral_38130.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_neutral_54562_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                     <tr>
                         <td>Sad</td>
                         <td>
+                            <p style="font-size:18px;">Дәл осы алай–түлей күндерде Тәкежан аулына <br>тағы бір оқыс әлек төнді.</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_sad_53370.wav", type="audio/wav">
+                                <source src="./GT/399172782_sad_70463.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_sad_53370.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_sad_70463_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_sad_61948.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_sad_61948.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_sad_46960.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_sad_46960.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_sad_70463_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                     <tr>
                         <td>Surprise</td>
                         <td>
+                            <p style="font-size:18px;">Операцияның нәтижесі әрқашан жаңа қатынас болады.</p>
+                        </td>
+                        <td>
                             <audio controls>
-                                <source src="./GT/1263201035/1263201035_surprise_75990.wav", type="audio/wav">
+                                <source src="./GT/399172782_surprise_72519.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./Synth/1263201035/1263201035_surprise_75990.wav", type="audio/wav">
+                                <source src="./honey_moon_demo_comp/399172782_surprise_72519_synth_old.wav", type="audio/wav">
                             </audio>
                         </td>
                         <td>
                             <audio controls>
-                                <source src="./GT/399172782/399172782_surprise_69860.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/399172782/399172782_surprise_69860.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./GT/805570882/805570882_surprise_73987.wav", type="audio/wav">
-                            </audio>
-                        </td>
-                        <td>
-                            <audio controls>
-                                <source src="./Synth/805570882/805570882_surprise_73987.wav", type="audio/wav">
+                                <source src="./demo_page_audio_comparison/399172782_surprise_72519_synth.wav", type="audio/wav">
                             </audio>
                         </td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="licence">
-            <h1>Licence</h1>
+            <h1>805570882</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emotions</th>
+                        <th>Text</th>
+                        <th>Ground Truth</th>
+                        <th>Synthesized</th>
+                        <th>Synthesized CL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Angry">
+                        <td>Angry</td>
+                        <td>
+                            <p style="font-size:18px;">Менің есімде компьютерді көргенде көзіме оттай басылған.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_angry_14690.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_angry_14690_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_angry_14690_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fear</td>
+                        <td>
+                            <p style="font-size:18px;">Біз өзіміздің ұстазымызбен парсы тілінде сөйлесеміз.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_fear_34771.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_fear_34771_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_fear_34771_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Happy</td>
+                        <td>
+                            <p style="font-size:18px;">Өтінемін, маған қоңырау шалсын деп айтыңызшы.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_happy_15869.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_happy_15869_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_happy_15869_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Neutral</td>
+                        <td>
+                            <p style="font-size:18px;">Бұл қылмыстың артында үлкен проблема тұр.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_neutral_36905.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_neutral_36905_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_neutral_36905_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sad</td>
+                        <td>
+                            <p style="font-size:18px;">Менің тонымды киген кісі үнемі қыз–қыз <br>қайнап жүреді – дейді Алдар Көсе.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_sad_34696.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_sad_34696_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_sad_34696_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Surprise</td>
+                        <td>
+                            <p style="font-size:18px;">Егер менің балам болатын болсаңдар, <br>мен сендерге осы құсты әкелуді тапсырамын.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/805570882_surprise_21262.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/805570882_surprise_21262_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/805570882_surprise_21262_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1>1263201035</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Emotions</th>
+                        <th>Text</th>
+                        <th>Ground Truth</th>
+                        <th>Synthesized</th>
+                        <th>Synthesized CL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="Angry">
+                        <td>Angry</td>
+                        <td>
+                            <p style="font-size:18px;">Бұл мәліметті Ұлттық тестілеу орталығының <br> директоры Қали Әбдиев те растаған болатын.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_angry_32762.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_angry_32762_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_angry_32762_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Fear</td>
+                        <td>
+                            <p style="font-size:18px;">Жапондар өте тазалық сүйгіш халық.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_fear_47763.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_fear_47763_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_fear_47763_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Happy</td>
+                        <td>
+                            <p style="font-size:18px;">Олар менің балаларым емес деп, өз–өзімді <br>мықтап дайындап алғанмын.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_happy_39023.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_happy_39023_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_happy_39023_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Neutral</td>
+                        <td>
+                            <p style="font-size:18px;">Батпақ соры шабындыққа және жыл бойғы<br> жайылымға пайдаланылады.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_neutral_32094.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_neutral_32094_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_neutral_32094_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sad</td>
+                        <td>
+                            <p style="font-size:18px;">Себебі мемлекетіміз үшін маңызды шешімдер осы <br>қаладан бастау алды.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_sad_38392.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_sad_38392_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_sad_38392_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Surprise</td>
+                        <td>
+                            <p style="font-size:18px;">Расында, біз шетелді эстрадалық әнмен <br>таңқалдыра алмаймыз.</p>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./GT/1263201035_surprise_30079.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./honey_moon_demo_comp/1263201035_surprise_30079_synth_old.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                        <td>
+                            <audio controls>
+                                <source src="./demo_page_audio_comparison/1263201035_surprise_30079_synth.wav", type="audio/wav">
+                            </audio>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 </body>
